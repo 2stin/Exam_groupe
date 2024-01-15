@@ -113,7 +113,7 @@ niveau=[5]*7 #indice de la première case vide de chaque colonne (5 au début)
 #       2
 #       ...
 #       5
-joueur=[('Laurel', 'yellow'), ('Hardy', 'red')]
+joueur=[('Jacques', 'yellow'), ('Michel', 'red')]
 rang=0
 
 etat="en cours"
