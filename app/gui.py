@@ -9,7 +9,6 @@ Partie concernant l'interaction avec l'utilisateur
 from tkinter import *
 
 
-
 def construire_gui(joueur):
     '''
     Interface graphique (ne pas tester)
