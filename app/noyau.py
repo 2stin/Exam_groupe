@@ -7,6 +7,7 @@ Author : John Doe
 
 import sys
 from gui import construire_gui
+from effects import *
 
 # fonction de callback (appelé à chaque événement clic sur un bouton)
 def jouer(case, gbouton, message):
@@ -26,6 +27,8 @@ def jouer(case, gbouton, message):
         (i,j)=maj_jeu(case, grille, niveau, rang)
         gbouton[i][j].config(bg=joueur[rang][1])
         
+        tick_nouv_jeton()
+
         print("clic sur"+str(i)+" "+str(j))
    
         if coup_gagnant(rang, i, j, grille):
