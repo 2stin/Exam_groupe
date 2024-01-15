@@ -55,8 +55,9 @@ def test_coup_gagnant():
     assert coup_gagnant(0, 2, 2, grille_verticale) == True
 
 def test_jeton():
-    assert jeton(0, )
-
-
-    assert jeton(joueur, posx, posy, depx, depy, grille)
+    assert jeton(0, -1, 3, 3, 3, True) == 0
+    assert jeton(0, 3, -1, 3, 3, True) == 0
+    assert jeton(0, 8, 3, 3, 3, True) == 0
+    assert jeton(0, 3, 8, 3, 3, True) == 0
+    #assert jeton(0, 2, 5, 3, 3, True) == 1+jeton(0, 5, 8, 3, 3, grille_horizontale)
 
