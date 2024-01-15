@@ -59,3 +59,4 @@ def test_jeton():
 
 
     assert jeton(joueur, posx, posy, depx, depy, grille)
+
