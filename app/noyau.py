@@ -121,3 +121,5 @@ etat="en cours"
 (f, gbouton, message)=construire_gui(joueur[rang]) 
 
 f.mainloop()
+
+#bonjour - Clément
