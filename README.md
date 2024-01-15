@@ -2,6 +2,9 @@ ROUANET Matthieu, BAUDEQUIN Clément, RAMOND Nicolas
 
 Exercice 5 - Version 0.0.1
 
+## Dépendances :
+Pygame (pip install pygame)
+
 ## Bugs :
 1- Si toutes les cases sont remplies sans qu'il n'y ait de gagnant, le jeu ne s'arrête pas.
 Suggestion : Implémenter un compteur qui va jusqu'à 42, et s'il l'atteint, indiquer qu'il y a égalité et arrêter la partie.
