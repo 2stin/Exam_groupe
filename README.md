@@ -16,3 +16,5 @@ Suggestion : Implémenter un bouton pour refaire une partie sur l'interface lors
 Code cleaning :
 1- La fonction jeton possède deux Return, c'est une mauvaise pratique (travail de cochon).
 Suggestion : Stocker la valeur dans une variable, puis retourner la variable.
+2- La fonction coup_gagnant possède CINQ returns .........
+Suggestion : Stocker la valeur dans une variable, puis retourner la variable.
